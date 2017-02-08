@@ -17,13 +17,13 @@ int main()
 
     for (int index = 0; index < NUM_EMPS; index++)
     {
-        cout << "\nHours worked by employee $" << (index + 1) << ": ";
+        cout << "\nHours worked by employee #" << (index + 1) << ": ";
         cin  >> hours[index];
         cout << "Hourly pay rate for this employee: $";
         cin  >> payRate[index];
     }
 
-    // Diaplay each employee's gross pay
+    // Display each employee's gross pay
     cout << "\nHere is the gorss pay for each employee:\n";
     cout << fixed << showpoint << setprecision(2);
 
