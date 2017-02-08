@@ -12,7 +12,7 @@ int main()
     double grossPay;
 
     // Get employee work data
-    cout << "Enter the hours worked and hourly pary rates of "
+    cout << "Enter the hours worked and hourly pay rates of "
          << NUM_EMPS << " employees. \n";
 
     for (int index = 0; index < NUM_EMPS; index++)
